@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# ROCK-PAPER-SCISSORS-GAME
+## Author
+[Preston-Too](https://github.com/Preston-Too)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+**Rock Paper Scissors** is a game, build using a Javascript framework ReactJs
 
-## Available Scripts
+## Installation / Setup instruction
+- Download dependencies by running `npm install`
+- Start up the app using `npm start`
 
-In the project directory, you can run:
+### Functionality Instructions
 
-### `npm start`
+- When you click on the **Rules** button, it should trigger a popup, and rules image should be displayed
+- Initially, the score displayed should be `0`
+- It consists of `choicesList`. It consists of a list of choice objects
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- When any of the three buttons (i.e Rock, Paper, Scissors) is clicked, then a view should be displayed
+- In the Game Results View, the computer choice should be generated randomly among these three buttons (i.e Rock, Paper, Scissors)
+- When the **Rock** button is clicked, then the rock image should be displayed as your choice
+- When the **Paper** button is clicked, then the paper image should be displayed as your choice
+- When the **Scissors** button is clicked, then the scissors image should be displayed as your choice
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  #### Game Results
+    - When your choice is **paper** and the computer choice is **rock**, then the result will be `YOU WON`
+    - When your choice is **scissors** and the computer choice is **rock**, then the result will be `YOU LOSE`
+    - When your choice is **rock** and the computer choice is **paper**, then the result will be `YOU LOSE`
+    - When your choice is **scissors** and the computer choice is **paper**, then the result will be `YOU WON`
+    - When your choice is **rock** and the computer choice is **scissors**, then the result will be `YOU WON`
+    - When your choice is **paper** and the computer choice is **scissors**, then the result will be `YOU LOSE`
+    - When your choice and the computer choice match, then the result will be `IT IS DRAW`
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- When the result is `YOU WON`, then the score should be incremented by one
+- When the result is `IT IS DRAW`, then there shouldn't be any change in the score
+- When the result is `YOU LOSE`, then the score should be decremented by one
+- Click **PLAY AGAIN** button to continue playing the game
