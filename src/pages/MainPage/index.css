@@ -36,6 +36,7 @@
   background-color: #223a5f;
   padding: 20px;
   }
+
 .RulesView{
   align-self: flex-end;
   margin-top: auto;
@@ -43,6 +44,7 @@
     margin-bottom: 40px;
   }
 }
+
 .PopUpView{
   display: flex;
   flex-direction: column;
@@ -54,6 +56,7 @@
     width: 100%;
   }
 }
+
 .PopUpImage{
   width: 50%;
   height: 60%;
