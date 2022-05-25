@@ -30,6 +30,7 @@
     - When your choice is **paper** and the computer choice is **scissors**, then the result will be `YOU LOSE`
     - When your choice and the computer choice match, then the result will be `IT IS DRAW`
 
+
 - When the result is `YOU WON`, then the score should be incremented by one
 - When the result is `IT IS DRAW`, then there shouldn't be any change in the score
 - When the result is `YOU LOSE`, then the score should be decremented by one
