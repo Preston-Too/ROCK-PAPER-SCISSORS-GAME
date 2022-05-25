@@ -12,10 +12,12 @@
   background-color: transparent;
   margin-top: 2%;
 }
+
 .ScoreNameDiv{
   display: flex;
   flex-direction: column;
 }
+
 .ScoreName{
   color: white;
   font-size: 20px;
@@ -26,6 +28,7 @@
     font-size: 14px;
   }
 }
+
 .ScoreBody{
   display: flex;
   flex-direction: column;
@@ -39,6 +42,7 @@
     width: 25%;
   }
 }
+
 .ScoreHead{
   color: #223a5f;
   font-size: 20px;
@@ -47,6 +51,7 @@
     font-size: 16px;
   }
 }
+
 .ScoreResult{
   color: #223a5f;
   font-size: 42px;
