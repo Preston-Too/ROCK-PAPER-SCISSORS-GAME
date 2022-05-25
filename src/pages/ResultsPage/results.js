@@ -7,7 +7,7 @@ const ResultsPage = (props) => {
     <div className="GamePageContainer">
       {isShow && (
         <>
-        <img src="../images/bg-triangle.svg" alt="" className="triangle"/>
+          <img src="../images/bg-triangle.svg" alt="" className="triangle" />
           <button
             className="GameButton"
             type="button"
@@ -15,7 +15,8 @@ const ResultsPage = (props) => {
             onClick={() => checkResult(choicesList[0].id)}
           >
             <img
-              className="GameImage" id="image"
+              className="GameImage"
+              id="image"
               src={choicesList[0].imageUrl}
               alt={choicesList[0].id}
               key={choicesList[0].id}
@@ -28,7 +29,8 @@ const ResultsPage = (props) => {
             onClick={() => checkResult(choicesList[1].id)}
           >
             <img
-              className="GameImage" id="image1"
+              className="GameImage"
+              id="image1"
               src={choicesList[1].imageUrl}
               alt={choicesList[1].id}
               key={choicesList[1].id}
@@ -41,7 +43,8 @@ const ResultsPage = (props) => {
             onClick={() => checkResult(choicesList[2].id)}
           >
             <img
-              className="GameImage" id="image2"
+              className="GameImage"
+              id="image2"
               src={choicesList[2].imageUrl}
               alt={choicesList[2].id}
               key={choicesList[2].id}
